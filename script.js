@@ -1,9 +1,14 @@
-//alert("Welcome to the Big Page!");
+var play = 0;
 
-function myFunction() {
-	alert("You have clicked!!!");
+function switchPlay() {
+	play = 1;
 }
-function openWindow() {
-	window.open("page_2.html", "_self")
+
+function letsPlay() {
+window.open("page_2.html", "_self")
+}
+
+if (play == 1) {
+	letsPlay();
 }
 
